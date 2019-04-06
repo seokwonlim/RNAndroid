@@ -1,5 +1,26 @@
 {
   "dependencies": {
+    "react": "^16.8.3",
+    "react-native": "^0.59.3",
     "react-native-webview": "^5.6.2"
-  }
+  },
+  "name": "RNAndroid",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seokwonlim/RNAndroid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seokwonlim/RNAndroid/issues"
+  },
+  "homepage": "https://github.com/seokwonlim/RNAndroid#readme"
 }
