@@ -2,6 +2,7 @@
  * @format
  */
 
+ /*
 //import {AppRegistry} from 'react-native';
 import { Navigation } from "react-native-navigation";
 import App from './App';
@@ -17,5 +18,50 @@ Navigation.events().registerAppLaunchedListener(() => {
         name: "navigation.playground.WelcomeScreen"
       }
     }
+  });
+});
+*/
+
+/*
+import {Navigation} from 'react-native-navigation';
+import {registerScreens} from './src/screens';
+
+registerScreens();
+
+Navigation.events().registerAppLaunchedListener(() => {
+  Navigation.setRoot({
+    root: {
+      component: {
+        name: 'Initializing'
+      }
+    },
+  });
+});
+*/
+
+// import { Navigation } from 'react-native-navigation';
+// import HomeScreen from './rnn/Home';
+
+// Navigation.registerComponent('rncreate.Home', () => Home);
+
+// Navigation.startSingleScreenApp({
+//   screen: {
+//     screen: 'rncreate.Home',
+//     title: 'Home'  
+//   }
+// });
+
+import {Navigation} from 'react-native-navigation';
+import {registerScreens} from './rnn/Screens';
+
+registerScreens();
+
+Navigation.events().registerAppLaunchedListener(() => {
+  Navigation.setRoot({
+    root: {
+      component: {
+        name: 'IntroScreen'
+      }
+    },
   });
 });
